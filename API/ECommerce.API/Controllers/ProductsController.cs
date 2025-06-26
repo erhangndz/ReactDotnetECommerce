@@ -38,5 +38,19 @@ namespace ECommerce.API.Controllers
             await context.SaveChangesAsync();
             return Ok(product);
         }
+
+        [HttpPut]
+        public async Task<IActionResult> Update(UpdateProductDto productDto)
+        {
+            var product = productDto.Adapt<Product>();
+            var updateProduct = await context.Products.FindAsync(product.Id);
+            if (updateProduct is null)
+            {
+                return BadRequest("Product Not Found");
+            }
+            context.Update(updateProduct);
+            await context.SaveChangesAsync();
+            return Ok(product);
+        }
     }
 }

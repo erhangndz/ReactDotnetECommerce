@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\erhan\\source\\repos\\reactdotnetecommerce\\api\\ecommerce.api\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:api\\ecommerce.api\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\erhan\\source\\repos\\reactdotnetecommerce\\api\\ecommerce.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:api\\ecommerce.api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\erhan\\source\\repos\\reactdotnetecommerce\\api\\ecommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:api\\ecommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|c:\\users\\erhan\\source\\repos\\reactdotnetecommerce\\api\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5599590-5495-6FBD-F8E4-F97FB5C84BEF}|API\\ECommerce.API\\ECommerce.API.csproj|solutionrelative:api\\ecommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,8 +30,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "API\\ECommerce.API\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Entities\\Product.cs",
+              "RelativeToolTip": "API\\ECommerce.API\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:37:43.182Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -43,6 +69,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\DTOs\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "API\\ECommerce.API\\DTOs\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\DTOs\\UpdateProductDto.cs",
+              "RelativeToolTip": "API\\ECommerce.API\\DTOs\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:36:17.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "API\\ECommerce.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "API\\ECommerce.API\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T06:35:23.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Program.cs",
               "RelativeDocumentMoniker": "API\\ECommerce.API\\Program.cs",
@@ -55,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API\\ECommerce.API\\Properties\\launchSettings.json",
@@ -63,8 +115,7 @@
               "RelativeToolTip": "API\\ECommerce.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T14:17:28.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T14:17:28.132Z"
             }
           ]
         }

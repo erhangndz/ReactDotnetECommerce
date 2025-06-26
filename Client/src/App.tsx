@@ -15,10 +15,29 @@ const products = [
 ];
 
 function App() {
+
+  const [products, setProducts] = useState<IProduct[]>([
+ 
+  
+
+  ]);
+  
+  useEffect(()=>{
+    fetch("https://localhost:5001/api/products")
+    .then(response=> response.json())
+    .then(data=> setProducts(data));
+  }, []);
+
+  function addProduct() {
+    setProducts([...products, { id: products.length + 1, name: `Product ${products.length + 1}` ,stock: products.length+1, price: (products.length + 1) * 100, isActive: true }]);
+  }
+  
+  
+
   return (
     <>
       <Header />
-      <ProductList />
+      <ProductList products={products}, addProduct={addProduct} />
     </>
   );
 }
@@ -31,23 +50,9 @@ function Header() {
   );
 }
 
-function ProductList() {
-const [products, setProducts] = useState<IProduct[]>([
- 
-  
-
-]);
-
-useEffect(()=>{
-  fetch("https://localhost:5001/api/products")
-  .then(response=> response.json())
-  .then(data=> setProducts(data));
-}, []);
+function ProductList(props:any) {
 
 
-function addProduct() {
-  setProducts([...products, { id: products.length + 1, name: `Product ${products.length + 1}` ,stock: products.length+1, price: (products.length + 1) * 100, isActive: true }]);
-}
 
 
   return (
