@@ -43,8 +43,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T06:37:43.182Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "API\\ECommerce.API\\DTOs\\UpdateProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T06:36:17.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T06:36:17.988Z"
             },
             {
               "$type": "Document",
@@ -87,7 +85,7 @@
               "RelativeDocumentMoniker": "API\\ECommerce.API\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\Erhan\\source\\repos\\ReactDotnetECommerce\\API\\ECommerce.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "API\\ECommerce.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T06:35:23.646Z",
               "EditorCaption": ""
@@ -102,8 +100,7 @@
               "RelativeToolTip": "API\\ECommerce.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T14:20:29.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T14:20:29.122Z"
             },
             {
               "$type": "Document",

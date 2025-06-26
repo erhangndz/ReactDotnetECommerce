@@ -2,7 +2,6 @@
 using ECommerce.API.DTOs;
 using ECommerce.API.Entities;
 using Mapster;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -51,6 +50,21 @@ namespace ECommerce.API.Controllers
             context.Update(updateProduct);
             await context.SaveChangesAsync();
             return Ok(product);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var product = await context.Products.FindAsync(id);
+            if (product is null)
+            {
+                return BadRequest("Product Not Found");
+
+            }
+
+            context.Remove(product);
+            await context.SaveChangesAsync();
+            return NoContent();
         }
     }
 }
